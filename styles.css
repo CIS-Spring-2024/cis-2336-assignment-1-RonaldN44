@@ -3,9 +3,9 @@ header {
     color: #fff;
     padding: 10px 0;
     text-align: center;
-    font-family: Helvetica;
     font-size: larger;
-    font-weight: bold;
+    font-weight: bold;;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
 }
 
@@ -15,13 +15,14 @@ header {
 }
 
 body {
-    font-family: Helvetica;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:16px;
 }
 
 .navbar{
     background-color: #ffffff;
     overflow: hidden;
-    font-family: Helvetica;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     overflow: hidden;
 }
 
@@ -118,4 +119,49 @@ body {
     border-color: black;
     background-color: black;
     width:700px;
+}
+
+fieldset{
+    border:solid 1px black;
+}
+
+legend{
+    font-weight:bolder
+}
+
+button[type="submit"]{
+    padding: .5em .1em;
+    background-color:black;
+    border-radius:6px;
+    color:white;
+    
+}
+
+footer{
+    background-color: grey;
+    font-size:large;
+    color:white;
+    text-align:center;
+    background-size: 1px 1px;
+}
+
+.schoolAdd{
+    text-align: left;
+    padding:10px;
+}
+
+.copyRight{
+    text-align: right;
+}
+
+.head3{
+    text-align: left;
+    font-size: larger;
+    padding:10px 50px;
+}
+
+.slPic{
+    position: relative;
+    float:left;
+    padding:200px 950px;
 }
