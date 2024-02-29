@@ -1,3 +1,7 @@
+/*
+CSS code for all classes
+*/
+
 header {
     background-color: red;
     color: #fff;
@@ -100,20 +104,20 @@ body {
 }
 
 
-.cost thead tr{
+.hours thead tr{
     background-color:grey;
 }
 
-.cost tbody tr:nth-of-type(even){
+.hours tbody tr:nth-of-type(even){
     background-color: whitesmoke;
 }
 
-.cost tbody tr:nth-of-type(odd){
+.hours tbody tr:nth-of-type(odd){
     background-color: white;
 }
 
 
-.cost{
+.hours{
     float:left;
     border-style: solid;
     border-color: black;
